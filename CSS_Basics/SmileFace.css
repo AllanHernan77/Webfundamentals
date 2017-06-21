@@ -1,0 +1,38 @@
+div.wrapper {
+	margin:5px;
+}
+
+.face {
+	width:75px;
+	height:75px;
+	border:solid 2px black;
+	background-color:yellow;
+	border-radius:50px;
+}
+
+.lefteye {
+	width:6px;
+	height:6px;
+	border:solid 1px black;
+	background-color:black;
+	border-radius:3px;
+	z-index:1px;
+	position:relative;
+	left:32px;
+	top:26px;
+
+}
+
+
+.righteye {
+	width:6px;
+	height:6px;
+	border:solid 1px black;
+	background-color:black;
+	border-radius:3px;
+	z-index:1px;
+	position:relative;
+	left:54px;
+	top:18px;
+
+}
