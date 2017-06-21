@@ -23,6 +23,17 @@ div.wrapper {
 
 }
 
+#inner-left {
+	width:2px;
+	height:2px;
+	border:solid 1px white;
+	background-color:white;
+	border-radius:2px;
+	position:relative;
+	left:2px;
+	top:2px;
+}
+
 
 .righteye {
 	width:6px;
@@ -35,4 +46,29 @@ div.wrapper {
 	left:54px;
 	top:18px;
 
+}
+
+#inner-right {
+
+	width:2px;
+	height:2px;
+	border:solid 1px white;
+	background-color:white;
+	border-radius:3px;
+	z-index:1px;
+	position:relative;
+	left:2px;
+	top:2px;
+}
+.mouth {
+	width:30px;
+	height:10px;
+	border:solid 1px black;
+	background-color:black;
+	border-radius:0px 0px 45px 45px;
+	z-index:1px;
+	position:relative;
+	margin:16px;
+	left:1em;
+	top:1em;
 }
