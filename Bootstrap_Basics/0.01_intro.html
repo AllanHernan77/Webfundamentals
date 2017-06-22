@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+  <title>Bootstrap Set up</title>
+  
+  	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- NOTE: Need these links for bootstrap https://www.bootstrapcdn.com/-->
+  	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+
+ 	<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+	<title>Intro</title>
+</head>
+<body>
+
+<h1>Bootstrap</h1>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4" style="background-color:red">
+			<h1>Hey Hey Hey</h1>
+		</div>	
+		<div class="row">
+		<div class="col-md-4" style="background-color:blue">
+			<h1>Hey Hey Hey</h1>
+		</div>
+		<div class="row">
+		<div class="col-md-4" style="background-color:green">
+			<h1>Hey Hey Hey</h1>
+		</div>					
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+                  <h3>Button <span class="semi-bold">Colors</span></h3>
+                  <p>Basic buttons are traditional buttons with borders and background. Use any of the available button classes to quickly create a styled button. Compatible for bootstrap version 2 and 3.</p>
+                  <br>
+                  <!-- Standard gray button with gradient -->
+                  <button type="button" class="btn btn-default btn-cons">Default</button>
+                  <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                  <button type="button" class="btn btn-primary btn-cons">Primary</button>
+                  <!-- Indicates a successful or positive action -->
+                  <button type="button" class="btn btn-success btn-cons">Success</button>
+                  <!-- Contextual button for informational alert messages -->
+                  <button type="button" class="btn btn-info btn-cons">Info</button>
+                  <!-- Indicates caution should be taken with this action -->
+                  <button type="button" class="btn btn-warning btn-cons">Warning</button>
+                  <!-- Indicates a dangerous or potentially negative action -->
+                  <button type="button" class="btn btn-danger btn-cons">Danger</button>
+                  <!-- Indicates a dangerous or potentially negative action -->
+                  <button type="button" class="btn btn-white btn-cons">White</button>
+                  <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+                  <button type="button" class="btn btn-link btn-cons">Link</button>
+                </div>
+	</div>
+</div>
+
+<img src="data:image/jpeg;base64,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" class="img-circle" alt="Cinque Terre">
+<button type="button" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-scissors" aria-hidden="true">Button</span> 
+</button>
+</div>
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+</body>
+
+</html>
