@@ -17,8 +17,11 @@ if(colts>patriots){
 }
 
 //gold
-for (i = 0; i < 100; i++) {
-    test += "the number is" + i + "<br>";
+for (i = 0; i < 101; i++) {
+    
+    if(i)
+    console.log(i)
+
 }
 
 
