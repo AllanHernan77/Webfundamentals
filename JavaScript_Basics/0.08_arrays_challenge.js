@@ -9,4 +9,4 @@ for(i=0; i<cars.length; i++){
 
 var candy=["Lolipop", "Pickles", "Cheese"];
 console.log(candy.length);
-console.log(candy)
+console.log(candy);
